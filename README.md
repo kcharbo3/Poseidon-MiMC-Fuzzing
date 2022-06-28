@@ -1,6 +1,7 @@
-# Fuzzing of PROJECT_NAME_HERE
-
-DESCRIPTION_HERE
+# Fuzzing of Poseidon and MiMC Hash Functions
+This project fuzzes the Poseidon, MiMC7, and MiMCSponge smart contracts provided by circomlibjs - https://github.com/iden3/circomlibjs
+The main focus was on memory management for contracts using these libraries, but also focused on some differential fuzzing, comparing the smart contract output to the javascript implementation output.
+Many thanks to Patrickd (https://github.com/patrickd-) for creating this fuzzing template, allowing me to easily fuzz these contracts with both Echidna and Foundry.
 
 ```
 src
